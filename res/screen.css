@@ -361,7 +361,7 @@ a.post-excerpt {
   }
 
   .padded-content::before {
-	content: '';
+    content: '';
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -378,15 +378,15 @@ a.post-excerpt {
 	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 
-.padded-content:hover {
+  .padded-content:hover {
     color:black;
 	border-color: #37474f;
 } 
-a.post-excerpt:hover {
+  a.post-excerpt:hover {
     text-decoration:none;
   }
 
-.padded-content:hover::before {
+  .padded-content:hover::before {
 	opacity: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
