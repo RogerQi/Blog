@@ -376,12 +376,12 @@ a.post-excerpt {
 	transition: transform 0.4s, opacity 0.4s;
 	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-}
+  }
 
   .padded-content:hover {
     color:black;
 	border-color: #37474f;
-} 
+  } 
   a.post-excerpt:hover {
     text-decoration:none;
   }
@@ -390,7 +390,7 @@ a.post-excerpt {
 	opacity: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
-}
+  }
   a.post-excerpt div.title {
     font-family:'Roboto Condensed', sans-serif;
     font-size:18px;
